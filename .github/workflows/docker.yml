@@ -12,7 +12,7 @@ env:
   GITHUB_USERNAME: nguyenhung9xdev2024
   GITHUB_EMAIL: nguyenhung9xdev2024@gmail.com
 
-  GITHUB_TOKEN: ${{ secrets.dockerhub }}
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
   # Image name and tag. MUST be lowercase
   IMAGE_NAME: docker
